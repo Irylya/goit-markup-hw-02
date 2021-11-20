@@ -1,0 +1,92 @@
+:root {
+    --primari-text-color: #757575;
+    --tittle-text-color: #212121;
+    --acsent-color: #2196f3;
+    --second-acsent-color: #ffffff;
+    --primary-bg-color: #ffffff;
+    --second-bg-color-bt:  #F5F4FA;
+}
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primari-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Логотип */
+.logo {
+  color: #000000;
+}
+
+.logo .part {
+  color: var(--acsent-color);
+}
+
+.logo:hover {
+  color: var(--acsent-color);
+}
+
+/* Навігаія основна*/
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--acsent-color);
+}
+
+.site-nav .link.current {
+    color: var(--acsent-color);
+}
+
+/* Герой */
+.hero-title {
+  color: var(--second-acsent-color)
+}
+
+/* Заголовки секцій */
+.section-title {
+  color: var(--tittle-text-color);
+}
+
+/* Наші переваги */
+.feature-list .title {
+    color: var(--tittle-text-color)
+}
+
+/* Наша коанда */
+.Team-list .title {
+    color: var(--tittle-text-color)
+}
+
+/* Кнопки */
+.button {
+    color: var(--tittle-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+.button.primary {
+    color: var(--second-acsent-color);
+    background-color: var(--acsent-color);
+}
+
+.button.secondary {
+    color: var(--primari-text-color);
+    background-color: var(--second-bg-color-bt);
+}
+.button:hover,
+.button:focus {
+    color: var(--second-acsent-color);
+    background-color: var(--acsent-color);
+}
+
+/* Основний колір  #757575 */
+/* Вторинний колір #212121 */
+/* Акцент #2196F3 */
+/* Другий акцент #FFFFFF */
+/* Чорний колір #000000 */
+/* Фон основний #FFFFFF; */
+/* Фон додатковий #2F303A  */
+ /* Другий фон кнопок #F5F4FA  */
