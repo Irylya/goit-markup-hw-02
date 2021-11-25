@@ -31,33 +31,39 @@ body {
 
 /* Логотип */
 .logo {
-  color: #000000;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
 
-.logo .part,
+.header-logo {
+  color: #000000;
+}
+
+.logo-part,
 .logo:hover {
   color: var(--acsent-color);
 }
 
 /* Навігація */
 
-.site-nav .link,
-.auth-nav .link {
+.nav-tab {
+  color: var(--tittle-text-color);
+}
+.nav-tab,
+.nav-auth {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover,
-.auth-nav .link:hover,
-.site-nav .link:focus,
-.auth-nav .link:focus,
-.site-nav .link.current {
+.nav-tab:hover,
+.nav-auth:hover,
+.nav-tab:focus,
+.nav-auth:focus,
+.nav-tab.current {
   color: var(--acsent-color);
 }
 
@@ -93,7 +99,7 @@ body {
 }
 
 /* Наші переваги */
-.feature-list .title {
+.feature-list-title {
   color: var(--tittle-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -106,31 +112,41 @@ body {
   text-align: center;
 }
 
-.team-list .title {
+.team-card-title {
   color: var(--tittle-text-color);
   font-weight: 500;
   font-size: 16px;
 }
 
-.team-list .position {
+.team-card-position {
   font-size: 16px;
+}
+
+/* footer */
+.footer {
+  color: var(--second-acsent-color);
+  background-color: #2f303a;
+}
+
+.footer-auth {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* ===============  Портфоліо ============= */
 
 /* Фільтр */
-.button {
+.filter-button {
   color: var(--tittle-text-color);
   background-color: var(--second-bg-color-bt);
-  font-style: inherit;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
 }
 
-.button:hover,
-.button:focus,
-.button.current {
+.filter-button:hover,
+.filter-button:focus,
+.filter-button.current {
   color: var(--second-acsent-color);
   background-color: var(--acsent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -138,7 +154,7 @@ body {
 }
 
 /* Наші роекти */
-.project-list .title {
+.project-card-title {
   color: var(--tittle-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -146,7 +162,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.project-list .type {
+.project-card-type {
   font-size: 16px;
   line-height: 1.87;
 }
